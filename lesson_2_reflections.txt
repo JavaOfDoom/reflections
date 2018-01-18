@@ -6,4 +6,14 @@ information before you put the information in. It would be like trying to fill a
 the glass, you would have just water that would go everywhere. Before we can start making our commits, we need
 a place for the commits to live.
 
+Question: How is the staging area different from the working directory and the repository? What value do you
+think it offers?
+
+I get to work on my code and use the staging area to hold parts of code that I want to eventually commit
+to the repository, but it saves me from having to save the entire code and instead just commit a specific
+list to the repository. I can use the working directory to check out the code i've commited and if I should
+have to change it I can revert to a previous commit. That is my understading so far. It's one more way for
+me to be able to work on code, save file space, and have access to all modifications along the way should
+I need to change things.
+
 Question:
