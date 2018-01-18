@@ -1,0 +1,9 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+
+I believe that when you initialize a repository it creates the location where all future information
+will be located. Just like in any file usage in a computer, you must first have a directory to hold the
+information before you put the information in. It would be like trying to fill a glass of water without
+the glass, you would have just water that would go everywhere. Before we can start making our commits, we need
+a place for the commits to live.
+
+Question:
