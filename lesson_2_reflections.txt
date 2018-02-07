@@ -47,4 +47,10 @@ into the master commit without having to take a lot of time copying and pasting 
 in the diagram to show the logical progression of how the commits came to be and how they still exist even
 after merging.
 
-Question: 
+Question: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros are that Git will compare the code for you when merging so that you don't have to manually read
+through thousands of lines of code just to see the differences and changes and find where the new code
+needs to be places. The con is that there could be chagnes that do not cause a conflict when merging, but
+there could be code that is removed or added that unexpectedly causes problems. Thankfully there are still
+the past commits to go to, but the potential dangers are there anyway.
