@@ -16,4 +16,35 @@ have to change it I can revert to a previous commit. That is my understading so 
 me to be able to work on code, save file space, and have access to all modifications along the way should
 I need to change things.
 
-Question:
+Question: How can you use the staging area to make sure you have one commit per logical change?
+
+I can do this by using adds, diffs, --staged, and status. I can use all these functions to asses where my
+code is currently. I can check to see which files are ready to be added and only put the files that are needed
+onto the staging area. Once I am happy with the code I want to update I can commit it.
+
+Question: What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+
+Branches would help anytime I want to try something very new and different in the code that might not be ready
+to be permanently added to the final version. It could be something experimental, maybe a language change, or
+even just a minor change that can drastically change the core functions of the application when it is running.
+Branches would allow me to keep the changes seperate from the master so that I can retain functionality but
+also have the ability to play around with the code. It will help reduce my anxiety about making changes.
+
+Question: How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure by showing a direct link between each commit and where the
+branches origionated from. I find it interesting that you can createe a detached head state to play around
+with the code and then just discart the entire thing. I can say that I worry that I would forget to give that
+detached head state a name to keep it safe, but I apprecate how it make it easy to mess around and then just
+let the changes dissapear if I don't like what I chagned.
+
+Question: What is the result of merging two branches together? Why do we represent it in the diagram the way
+we do?
+
+The result of merging the two branches together is that we were able to quickly include in a cool new feature
+into the master commit without having to take a lot of time copying and pasting the code. It was represented
+in the diagram to show the logical progression of how the commits came to be and how they still exist even
+after merging.
+
+Question: 
