@@ -14,4 +14,15 @@ not ready to have be a part of the final code. The commits are there to help man
 should pulls and also pushes be done at logical changes and only once both sources are reviewed to make sure there is no conflic
 with the code or no unexpected chagnes.
 
+Question: Describe the differences between forks, clones, and branches. When would you use one instead of
+another?
+
+The difference is that brances are used locally. When you push a branch to GitHub, it is only that one branch
+that is shared, it is disconnected from commits from other brances. Clones are exact copies of a commit, and
+they can be stored either remote or locally. A fork is like a clone, but it is only remote. Once it is moved
+to a local machine it becomes just a clone.
+I would use a branch while working locally. It is what I would use when I'm actively coding and making
+changes. I would use a clone mainly when working locally as well, a fork is best for working on a remote
+commit.
+
 Question: 
