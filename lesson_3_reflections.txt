@@ -6,4 +6,12 @@ able to access my code on different computers. I have a desktop, laptop, and wor
 to access my work instead of having to continually download and transfer my work by flash drive. And I would also want to use a 
 remote repository so that I can have others contribute to my work. If we all work together, we can make the world a better place!!!
 
+Question: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote
+repository?
+
+My main reason for not wanting Git to automatically pull would be because there might be changes made by myself or others that I'm
+not ready to have be a part of the final code. The commits are there to help manage the logical changes made to the code, so too
+should pulls and also pushes be done at logical changes and only once both sources are reviewed to make sure there is no conflic
+with the code or no unexpected chagnes.
+
 Question: 
