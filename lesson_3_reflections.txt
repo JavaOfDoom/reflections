@@ -25,4 +25,10 @@ I would use a branch while working locally. It is what I would use when I'm acti
 changes. I would use a clone mainly when working locally as well, a fork is best for working on a remote
 commit.
 
+Question: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benifit is that by having the most recent update of the remote, you are more likely to be able to assess
+and changes that were made or that you make. Also you can work offline and when you reconnect to the remote
+you will be closer to the origional than if you had not stored a copy of the last known state.
+
 Question: 
