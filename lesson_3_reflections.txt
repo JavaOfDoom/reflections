@@ -31,4 +31,21 @@ The benifit is that by having the most recent update of the remote, you are more
 and changes that were made or that you make. Also you can work offline and when you reconnect to the remote
 you will be closer to the origional than if you had not stored a copy of the last known state.
 
-Question: 
+Question: How would you collaborate without using Git or GitHub? What would be easier, and what would be
+harder?
+
+I would use e-mail, a direct messaging app, and something like dropbox or other cloud service to share
+different files. A direct messaging app or something similar would be easier by having that direct and
+immediate contact with others who you are collaborating with. You'd be able to share informatoin more
+quickly. E-mail and cloud services are a nice was to have access to transfered files and messages, but
+they are definitely limited by the tedious and slow nature of uploading full files, limited by how much
+you can tranfer, and you have to acctively check up on the current state of messaging and file changes.
+
+Question: When would you want to make changes in a separate branch rather than directly in master? what
+benefits does each approach have?
+
+I would want to make changes in a separate branch instead of the master when working on potentially big
+changes to the file. It would be branches that are experimental or trying something new. The benefit of
+working directly on the master branch would be not having to manage all the extra branches. But the
+potential for major mistakes to the master are big, so I feel that always using the seperate branches
+are the most bennificial.
